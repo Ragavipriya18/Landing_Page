@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaRegCircleCheck, FaSquareCheck} from 'react-icons/fa6'
+import { FaSquareCheck} from 'react-icons/fa6'
 
 
 
