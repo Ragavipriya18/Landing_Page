@@ -117,7 +117,7 @@ const Navbar = () => {
                   {/* signup division... */}
 
      {showBuy && (
-      <div className='absolute inset-0 bg-opacity-70 backdrop-blur-md z-10'></div>
+      <div className='absolute inset-0 bg-opacity-70 backdrop-blur-md z-10 '></div>
      )}
 
     {showBuy && (
@@ -131,20 +131,20 @@ const Navbar = () => {
             <button className='bg-sky-700 text-white h-8 w-8 rounded-full animate-pulse'></button>
             </div>
             
-            <h2 className="text-2xl text-center font-bold  font-mono text-black">Send a request to place an order</h2>
+            <h2 className="text-2xl text-center font-bold font-serif text-black">Send a request to place an order</h2>
            
 
             {/* row1 */}
             <div className='flex flex-row gap-5 mx-auto '>
             <div>
-              <label for="" className='text-black font-bold'>First Name<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>First Name<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='text' name='first_name' className='text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></input>
             </div>
 
             <div>
-              <label for="" className='text-black  font-bold'>Last Name<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Last Name<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='text' name='last_name'className='text-black border h-10 w-64 mx-auto outline outline-offset outline-blue-600 rounded-lg' required></input>
@@ -156,14 +156,14 @@ const Navbar = () => {
           {/* row2 */}
             <div className='flex flex-row gap-5 mx-auto  mt-2'>
             <div>
-              <label for="" className='text-black  font-bold'>Username<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Username<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='text' name='username' className=' text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></input>
             </div>
 
             <div>
-              <label for="" className='text-black  font-bold'>Email ID<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Email ID<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='email' name='email'className=' text-black border h-10 w-64 mx-auto outline outline-offset outline-blue-600 rounded-lg' required></input>
@@ -173,14 +173,14 @@ const Navbar = () => {
             {/* row3 */}
             <div className='flex flex-row gap-5 mx-auto  mt-2'>
             <div>
-              <label for="" className='text-black  font-bold'>Address<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Address<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <textarea name='address' className=' text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></textarea>
             </div>
 
             <div>
-              <label for="" className='text-black  font-bold'>Phone Number<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Phone Number<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='number' name='phone' className=' text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></input>
@@ -191,14 +191,14 @@ const Navbar = () => {
             {/* row4 */}
             <div className='flex flex-row gap-5 mx-auto  mt-2'>
             <div>
-              <label for="" className='text-black  font-bold'>Product Name<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Product Name<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='text' name='product_name' className='text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></input>
             </div>
 
             <div>
-              <label for="" className='text-black  font-bold'>Quantity<span className='text-red-600'>*</span></label>
+              <label for="" className='text-black font-semibold  font-serif '>Quantity<span className='text-red-600'>*</span></label>
               <br/>
               <br/>
               <input type='number' name='quantity' className='text-black border h-10 w-64 outline outline-offset outline-blue-600 rounded-lg' required></input>

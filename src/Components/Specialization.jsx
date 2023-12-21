@@ -6,7 +6,7 @@ import { FaSquareCheck} from 'react-icons/fa6'
 
 const Specialization = () => {
   return (
-    <div id='spec' name='specialization' className='bg-gradient-to-t from-gray-300 to-200 h-screen  w-full md:h-screen   '>
+    <div id='spec' name='specialization' className='bg-gradient-to-t from-gray-300 to-200 h-screen  w-full md:h-screen '>
 
         <h1 className='text-7xl font-bold pt-20 md:text-end md:mr-32  ' id='airpods'>Specialization</h1>
 

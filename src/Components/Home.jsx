@@ -7,6 +7,8 @@ import { SiGmail } from 'react-icons/si';
 
 const Home = () => {
 
+  
+
     const [showSignUp, setShowSignUp] = useState(false);
     
     const closeForm = () =>{
@@ -43,7 +45,7 @@ const Home = () => {
 
     return (
 
-    <div name="home" className='bg-black h-full w-full md:flex md:h-screen'>
+    <div name="home" className='bg-black h-full  md:flex md:h-screen'>
 
 
       
@@ -55,6 +57,8 @@ const Home = () => {
       <div className='flex gap-2'>
        
        <button onClick={()=>setShowSignUp(!showSignUp)} className='btn btn-primary'>Register</button>
+
+       
       </div>
 </div>
 

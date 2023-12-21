@@ -34,14 +34,14 @@ const Footer = () => {
              {/* row 4 only for desktop view */}
 
              <div className='bg-white  h-28 w-28  mt-3 text-black '>
-                <iframe frameborder="0" className='h-28 w-28' src="https://www.google.com/maps/embed/v1/place?q=12,+North+Street,+Trichy,+TamilNadu&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                <iframe frameborder="0" className='h-28 w-28' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125406.10469901354!2d78.68902800000002!3d10.815844650000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf50ff2aecdad%3A0x6de02c3bedbbaea6!2sTiruchirappalli%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1703129205243!5m2!1sen!2sin" >
                 </iframe>
             </div>
 
             {/* row 3 */}
             <div className='mt-2'>
                 <h6>Ask a question?</h6>
-                <h6>+91 93******48</h6>
+                <h6>+91 9363389748</h6>
                 <h6>airpods@gmail.com</h6>
                 <h6>12, North Street</h6>
                 <h6>Trichy, TamilNadu</h6>
@@ -53,7 +53,7 @@ const Footer = () => {
 
 
 
-        <div className='md:hidden  text-center flex flex-col gap-2'>
+        <div className='md:hidden sm:hidden text-center flex flex-col gap-2'>
 
             <h1 id='airpods' className='text-4xl text-cyan-600  mt-3' >AirPods</h1>
             <div className='flex flex-row gap-2  text-cyan-600 justify-center'>

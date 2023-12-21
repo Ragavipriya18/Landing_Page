@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {FaMusic} from 'react-icons/fa';
 import {BiSolidBatteryCharging} from 'react-icons/bi'
 import {BsSoundwave} from 'react-icons/bs'
@@ -129,8 +129,6 @@ const Features = () => {
 
   
 
-
-    
 
     </div>
   
